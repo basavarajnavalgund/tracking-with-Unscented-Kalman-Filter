@@ -1,0 +1,5 @@
+cd build
+cmake .. && make
+./UnscentedKF ../data/input1.txt output1.txt
+./UnscentedKF ../data/input2.txt output2.txt
+./UnscentedKF ../data/input3.txt output3.txt
